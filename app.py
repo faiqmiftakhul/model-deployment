@@ -7,10 +7,11 @@ def main():
     choice = st.sidebar.selectbox('Menu', menu)
 
     if choice == 'Home':
-        st.subheader('Welcome to homepage')
+        st.subheader('Welcome to homepage - Edit')
     elif choice == 'Machine Learning':
         st.subheader('Welcome to Prediction Page')
         run_ml_app()
 
 if __name__ == '__main__':
     main()
+
